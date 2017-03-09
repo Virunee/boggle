@@ -49,8 +49,12 @@ def get_dictionary(dictionary_file):
     with open(dictionary_file) as f:
         return [w.strip().upper() for w in f]
 
-grid = make_grid(2, 2)
-print grid
-print all_grid_neighbours(grid)
-print path_to_word(grid,[(0, 0), (1, 0)])
-print get_dictionary('words.txt')[0]
+def main():
+    grid = make_grid(3, 3)
+    dictionary = get_dictionary('words.txt')
+    words = search(grid, dictionary)
+    for word in words:
+        print word
+    print "Found {0} words".format(len(words))
+
+main()

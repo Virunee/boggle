@@ -40,3 +40,10 @@ class TestBoggle(unittest.TestCase):
         grid = boggle.make_grid(2, 2)
         neighbours = boggle.all_grid_neighbours(grid)
         self.assertEqual(len(neighbours), len(grid))
+
+    def test_converting_a_path_to_a_word(self):
+        grid = boggle.make_grid(2, 2)
+        oneLetterWord = boggle.path_to_word(grid, [(0, 0)])
+        twoLetterWord = boggle.path_to_word(grid, [(0, 0), (1, 1)])
+        self.assertEqual(oneLetterWord, grid[(0, 0)])
+        self.assertEqual(twoLetterWord, grid[(0, 0)] + grid[(1, 1)])

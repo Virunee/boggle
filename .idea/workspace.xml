@@ -15,8 +15,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/boggle$Unittests_in_TestBoggle.coverage" NAME="Unittests in TestBoggle Coverage Results" MODIFIED="1489072414318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/boggle$Unittest_TestBoggle_test_grid_coordinates.coverage" NAME="Unittest TestBoggle.test_grid_coordinates Coverage Results" MODIFIED="1489074966685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/boggle$boggle.coverage" NAME="boggle Coverage Results" MODIFIED="1489075457139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/boggle$Unittests_in_test_boggle.coverage" NAME="Unittests in test_boggle Coverage Results" MODIFIED="1489074974205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/boggle$boggle.coverage" NAME="boggle Coverage Results" MODIFIED="1489077199205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/boggle$Unittests_in_test_boggle.coverage" NAME="Unittests in test_boggle Coverage Results" MODIFIED="1489077196384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="boggle.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/boggle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="448">
+              <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -40,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/test_boggle.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="40" column="47" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="47" />
+              <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -68,8 +68,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="706" />
-    <option name="width" value="1221" />
+    <option name="x" value="705" />
+    <option name="width" value="1222" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -450,15 +450,6 @@
     <history-entry file="Unittest_TestBoggle_test_grid_coordinates - 2017.03.09 at 15h 56m 06s.xml">
       <configuration name="Unittest TestBoggle.test_grid_coordinates" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestBoggle - 2017.03.09 at 15h 07m 12s.xml">
-      <configuration name="Unittests in TestBoggle" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestBoggle - 2017.03.09 at 15h 09m 47s.xml">
-      <configuration name="Unittests in TestBoggle" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_TestBoggle - 2017.03.09 at 15h 11m 04s.xml">
-      <configuration name="Unittests in TestBoggle" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_TestBoggle - 2017.03.09 at 15h 12m 34s.xml">
       <configuration name="Unittests in TestBoggle" configurationId="tests" />
     </history-entry>
@@ -477,12 +468,21 @@
     <history-entry file="Unittests_in_test_boggle - 2017.03.09 at 15h 56m 14s.xml">
       <configuration name="Unittests in test_boggle" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_boggle - 2017.03.09 at 16h 20m 50s.xml">
+      <configuration name="Unittests in test_boggle" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_boggle - 2017.03.09 at 16h 32m 53s.xml">
+      <configuration name="Unittests in test_boggle" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_boggle - 2017.03.09 at 16h 33m 16s.xml">
+      <configuration name="Unittests in test_boggle" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="706" y="0" width="1221" height="1047" extended-state="0" />
+    <frame x="705" y="0" width="1222" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24978466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24956971" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5030146" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -538,7 +538,7 @@
     <entry file="file://$PROJECT_DIR$/test_boggle.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="40" column="47" lean-forward="false" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="47" />
+          <caret line="48" column="36" lean-forward="true" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -547,8 +547,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/boggle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="448">
+          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>

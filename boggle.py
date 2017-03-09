@@ -13,6 +13,7 @@ def neighbours_of_a_position((row, col)):
             (row, col - 1),                     (row, col + 1),
             (row + 1, col - 1), (row + 1, col), (row + 1, col + 1)]
 
+
 def all_grid_neighbours(grid):
     neighbours = {}
     for position in grid:
@@ -20,7 +21,11 @@ def all_grid_neighbours(grid):
         neighbours[position] = [p for p in position_neighbours if p in grid]
     return neighbours
 
+
+def path_to_word(grid, path):
+    return ''.join([grid[p] for p in path])
+
 grid = make_grid(2, 2)
 print grid
-print neighbours_of_a_position((1, 1))
 print all_grid_neighbours(grid)
+print path_to_word(grid,[(0, 0), (1, 0)])

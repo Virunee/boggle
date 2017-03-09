@@ -26,17 +26,25 @@ def path_to_word(grid, path):
     return ''.join([grid[p] for p in path])
 
 
+def is_a_real_word(word, dictionary):
+    return word in dictionary
+
+
 def search(grid, dictionary):
     neighbours = all_grid_neighbours(grid)
     paths = []
+    full_words, stems = dictionary
 
     def do_search(path):
         word = path_to_word(grid, path)
-        if word in dictionary:
+        if is_a_real_word(word, full_words):
             paths.append(path)
+        if word not in stems:
+            return
         for next_pos in neighbours[path[-1]]:
             if next_pos not in path:
                 do_search(path + [next_pos])
+
     for position in grid:
         do_search([position])
 
@@ -45,16 +53,31 @@ def search(grid, dictionary):
         words.append(path_to_word(grid, path))
     return set(words)
 
-def get_dictionary(dictionary_file):
-    with open(dictionary_file) as f:
-        return [w.strip().upper() for w in f]
 
-def main():
-    grid = make_grid(3, 3)
-    dictionary = get_dictionary('words.txt')
-    words = search(grid, dictionary)
+def get_dictionary(dictionary_file):
+    full_words, stems = set(), set()
+
+    with open(dictionary_file) as f:
+        for word in f:
+            word = word.strip().upper()
+            full_words.add(word)
+
+            for i in range(1, len(word)):
+                stems.add(word[:i])
+    return full_words, stems
+
+
+def display_words(words):
     for word in words:
         print word
     print "Found {0} words".format(len(words))
+
+
+def main():
+    grid = make_grid(5, 5)
+    print grid
+    dictionary = get_dictionary('words.txt')
+    words = search(grid, dictionary)
+    display_words(words)
 
 main()
